@@ -1,0 +1,222 @@
+
+
+                                                        ÜÜÜÜ
+                ßßÛßß ÛßßÛ ÛßßÛ ÛßßÜ ÛßÜßÛ ÛßßÛ ÛÜ Û    ÜÜÜÛ
+                  Û   ÛÜÜÛ ÛßßÛ ÛÜÜß Û   Û ÛßßÛ Û ßÛ    ÛÜÜÜ
+                                                  
+
+
+                                Text File
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+                Yes!  The toads are back in Toadman 2 : Space Shock.
+        Why 'Space Shock'?  Because in this one, the toads have laser guns,
+        and most of the battle levels are in space.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+                First of all, Toadman 2 can have 1 or 2 players!
+
+        In order for 1 player, open up the 'TOADMAN2.BAS' file.  Scroll down
+        until you get to the speed constants.  Below those is 'OnePlayerMode%'
+        variable.  Make it equal 1 for one player.  When you play, there
+        still will be two screens for each player, you are the screen on the
+        right, the blue-eyed toad.  The screen one the left, the red-eyed toad
+        is controlled by the computer.  You must kill him to win.
+
+                I set the OnePlayerMode% variable to 0, since the first
+        Toadman was two players only.  Toadman 2 was made for 2 players, but
+        I put that variable in there to make the red-eyed toad controllable by
+        the computer.  The computer isn't smart enough to plant mines, shoot
+        the bazooka, or anything spiffy like that, so don't expect too much
+        from him.
+        
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ 
+
+ þ What is Toadman?
+
+        Toadman was originally a two player battle game where two toads are
+        determined to destroy each other.  You start on a battle ground with
+        some life and ammo, and then go around getting items and other things
+        to destroy the other player.
+
+ þ What is Toadman 2?
+
+        Toadman 2 is, the sequel to Toadman, duh.  But this one can be either
+        1 or 2 players.  Since most of it was made for two players, the one
+        player mode might seem, like two players, but one player is controlled
+        by the computer.  Toadman 2 also has other things the first Toadman
+        didn't.
+
+ þ What do you need?
+
+        I recommend a 486/66MHz computer or better with QuickBASIC v4.5.
+
+ þ Differences from Toadman 1 to Toadman 2.
+
+        Toadman 1 was only two players, but Toadman 2 can be either
+        one or two players.  In the first Toadman, the toads shoot with
+        flamethrowers.  In this one, they fight with laser guns, knifes,
+        hammers, chainsaws, mines, and bazookas.  Toadman 2 also has some
+        nice animation the first one didn't have.  The only animation in the
+        first one were the toads exploding. In Toadman 2,there's animation all
+        over the place, the toads move their feet, water moves, and more
+        stuff like that.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ þ How to play.
+
+                Here are the keys for Toadman 2.
+
+        Player 1                                Player 2
+
+ Move around  = W,S,A,D                 Move around  = CURSOR KEYS
+ Shoot        = Q                       Shoot        = ENTER
+ Hit          = 1                       Hit          = ]
+ Drop Mine    = 2                       Drop Mine    = [
+ Baz-Mode     = TAB                     Baz-Mode     = \
+
+ þ Moving around.
+
+        Up above tells you how to move around.  In OnePlayerMode, you use
+        Player 2's keys.
+
+ þ Shooting.
+
+        You can shoot left or right by pressing the 'SHOOT' key.  Be careful,
+        the farther the laser travels, the more ammo you lose.  A toad loses
+        5 health by getting hit by a laser.  Unless you have the SUPERLASER,
+        which takes away 10 health.  See the ' þ Bonus Items.' below.
+
+ þ Hit?
+
+        What does hit mean?  If you have a knife, hammer, or chainsaw, and
+        press the hit key, anything around you will get hurt.  The knife,
+        hammer, and chainsaw are each stronger than the other respectively.
+
+ þ Baz-Mode.
+
+        Baz-Mode is short for Bazooka Mode.  If you have a bazooka and hit the
+        'BAZ-MODE' key, a target will appear on your screen.  You can move
+        this target anywhere on the map.  When your in baz-mode, and you hit
+        The 'SHOOT' key, there will be an explosion.  A direct hit on the toad
+        will take away 50 health else 30 health.  Be careful, if you move the
+        target too far away, you can't see what's happening to you, so pay
+        attention to yourself when baz-mode is on.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ þ Bonus Items.
+
+                Look around for these things on the battleground.
+
+        Blue medikit with white cross   -  When your life goes below zero, it
+                                           will jump back up to 100.
+
+        Green thing with silver border  -  Gives you SUPERAMMO, twice as
+        and yellow center.                 strong as normal ammo.  You don't
+                                           have a limited of time, just a
+                                           limit on how much you use.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ þ The frozen toads.
+
+                There are toads that are frozen on the map, disturb them, and
+        they will awake, and go after you with one thing on their mind, to
+        destroy you.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ þ Mines and mine fields.
+
+                You can't see any mines on the battle ground accept for the
+        ones you put on the battle ground.  But, if you get the minesweeper,
+        you can see all the mines on the battle ground, which gives you a good
+        advantage.
+                One OnePlayerMode, the computer isn't smart enough to drop
+        mines, or see that the only way out of a dead-end is too go threw them
+        which gives you little use for them in OnePlayerMode.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ þ Slime and Poisonous slime.
+
+                There is green slime on the battle field which will hurt you
+        if you touch it.  But the yellow slime is much more dangerous.  Touch
+        that and you will be posioned, which means your life will drop by 1
+        really fast.  To cure this, you must get the green medipack with the
+        yellow cross on it.  It won't give you extra health, it will just stop
+        The poison.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ þ The level converter.
+
+        You can convert Toadman 1 levels to Toadman 2 levels by using the
+        Toadman1 to Toadman2 level converter 'TD1-TD2.BAS'.  Enter the path
+        and name of the toadman1 level and the path and name for the toadman2
+        level.  It will converted it pretty fast.  But it will change the keys
+        to keycards, and the doors to doors to be used with the keycard.  On
+        Toadman2, one keycard will open all the doors with that color.  On
+        Toadman1, one key will only open one door, then you will lose that
+        key.  Which might make levels you made in Toadman1 easier in Toadman2.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ þ The level builder.
+
+        Yes, this game includes the level builder with it 'TOAD2-BU.BAS'.  You
+        can make your levels in that, and then load them in Toadman2 to play
+        by selecting 'Load Custom Map' in the main menu.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ þ Delta Code?
+
+        Delta Code is the software group that I am in.  Me and my cousin came
+        up with it, and so far, we are the only ones in it.  We called it
+        Delta Code becase we live in Delta and type Code.  NOT Delta Code
+        Interactive like I put in the First Toadman, just Delta Code.
+
+        Members of Delta Code.
+
+                Joe King       James Heath
+
+ þ Contace me?
+
+        Questions, comments, want to be a part of the team?
+
+        Email me at
+
+        Joek@w.millard.k12.ut.us
+
+        Or Snail mail me, if you live the U.S.
+
+        Joe King
+        155s 200w
+        Delta, UT 84624
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+                          Thanks for playing
+                        Toadman 2: Space Shock
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
